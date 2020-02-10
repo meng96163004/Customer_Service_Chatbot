@@ -1,0 +1,45 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "sandwich price",
+         "patterns": ["What is a chicken teriyaki sandwich price?", "How much is a chicken teriyaki sandwich", 
+         "Can I have the price for hicken teriyaki sandwich"],
+         "responses": ["Hi, A chicken teriyaki sandwich's price is 3 pounds"],
+         "context_set": ""
+        },      
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have wa Good day"],
+         "responses": ["Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is rob", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 23 years old!", "23 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["Hi there, I'm subway online assistant, Rob.", 
+         "Welcome to our subway shop! I'm Rob, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", 
+         "could i get something to eat"],
+         "responses": ["sandwiches, sides and drinks are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 6am-6pm Monday-Saturday!!"],
+         "context_set": ""
+        }
+   ]
+}
+
+
+
+
